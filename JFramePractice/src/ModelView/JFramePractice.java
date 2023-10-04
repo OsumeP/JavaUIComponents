@@ -1,11 +1,8 @@
 
 package ModelView;
 
-import java.awt.Color;
-import javax.swing.JButton;
+
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 
 public class JFramePractice{
@@ -14,7 +11,8 @@ public class JFramePractice{
     public static void main(String[] args) {
         JFrame root = CreacionFrame();
         //CheckButtonDemo.GenerarRoot(root);
-        RadioButtonDemo.MostrarDemo(root);
+        //RadioButtonDemo.MostrarDemo(root);
+        ComboBoxDemo.CBDemostracion(root);
         
         //Configuación del marco
         
@@ -52,7 +50,6 @@ public class JFramePractice{
     }
     public static JFrame CreacionFrame(){
         JFrame root = new JFrame("");
-        root.setVisible(true);
         root.setBounds(100, 100, 500, 500);
         root.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         return root;

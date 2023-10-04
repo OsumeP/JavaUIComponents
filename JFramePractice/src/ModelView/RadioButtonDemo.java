@@ -66,5 +66,6 @@ public class RadioButtonDemo {
             }
         };
         btnCambiarColor.addActionListener(actionListener);
+        root.setVisible(true);
     }
 }

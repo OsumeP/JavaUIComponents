@@ -58,6 +58,7 @@ public class CheckButtonDemo{
         checkEspanol.addChangeListener(changeListen);
         checkFrances.addChangeListener(changeListen);
         checkIngles.addChangeListener(changeListen);
+        root.setVisible(true);
     }
 
 }
