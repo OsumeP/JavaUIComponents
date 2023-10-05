@@ -12,7 +12,8 @@ public class JFramePractice{
         JFrame root = CreacionFrame();
         //CheckButtonDemo.GenerarRoot(root);
         //RadioButtonDemo.MostrarDemo(root);
-        ComboBoxDemo.CBDemostracion(root);
+        //ComboBoxDemo.CBDemostracion(root);
+        ListDemo.MostrarLista(root);
         
         //Configuación del marco
         
